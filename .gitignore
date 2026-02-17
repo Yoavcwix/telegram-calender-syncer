@@ -1,0 +1,41 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Base44
+base44/.app.json*
+base44/.types/
+
+# Dependencies and runtimes
+node_modules/
+.deno/
+vendor/
+
+# Build and output
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# IDE and editor
+.cursor/
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and debug
+*.log
+.cursor/debug.log
+logs/
+
+# Cursor/IDE skills and agent config (local only)
+.agents/
+.claude/

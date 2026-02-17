@@ -1,0 +1,28 @@
+{
+  "name": "TelegramChat",
+  "type": "object",
+  "properties": {
+    "chat_id": {
+      "type": "string",
+      "description": "Unique Telegram chat ID"
+    },
+    "messages": {
+      "type": "array",
+      "description": "Conversation history (last 10 messages)",
+      "items": {
+        "type": "object",
+        "properties": {
+          "role": { "type": "string" },
+          "content": { "type": "string" }
+        }
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": ["idle", "awaiting_clarification"],
+      "default": "idle",
+      "description": "Current conversation status"
+    }
+  },
+  "required": ["chat_id"]
+}
