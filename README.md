@@ -22,7 +22,7 @@ A Telegram bot that adds events to your Google Calendar. Send it event details i
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/telegram-calendar-bot.git
+git clone https://github.com/Yoavcwix/telegram-calendar-bot.git
 cd telegram-calendar-bot
 npm install
 ```
